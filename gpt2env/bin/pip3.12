@@ -1,4 +1,4 @@
-#!/Users/romanlebedynskyi/gpt-2-lokal/gpt2evn/bin/python3.12
+#!/Users/romanlebedynskyi/gpt-2-lokal/gpt2env/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys

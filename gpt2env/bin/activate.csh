@@ -9,7 +9,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/Users/romanlebedynskyi/gpt-2-lokal/gpt2evn"
+setenv VIRTUAL_ENV "/Users/romanlebedynskyi/gpt-2-lokal/gpt2env"
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"
@@ -18,8 +18,8 @@ setenv PATH "$VIRTUAL_ENV/bin:$PATH"
 set _OLD_VIRTUAL_PROMPT="$prompt"
 
 if (! "$?VIRTUAL_ENV_DISABLE_PROMPT") then
-    set prompt = "(gpt2evn) $prompt"
-    setenv VIRTUAL_ENV_PROMPT "(gpt2evn) "
+    set prompt = "(gpt2env) $prompt"
+    setenv VIRTUAL_ENV_PROMPT "(gpt2env) "
 endif
 
 alias pydoc python -m pydoc
